@@ -5,17 +5,26 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
+    <!-- <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" /> -->
 
     <div class="wrapper">
+
       <HelloWorld msg="Jorge Oehrens" />
 
       <nav>
-        <RouterLink to="/">Technology</RouterLink>
-        <RouterLink to="/about">Portfolio</RouterLink>
-        <RouterLink to="/about">Curriculum Vitae</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
+        <div class="grid grid-cols-4 gap-4 mt-10">
 
+          <RouterLink to="/" class="text-center">Proyectos</RouterLink>
+          <RouterLink to="/about" class="text-center">Tecnologías</RouterLink>
+          <RouterLink to="/about" class="text-center">Sobre mi</RouterLink>
+          <a href="http://localhost:5173/CV-JORGEOEHRENS.pdf" class="text-center" target="_blank">CV</a>
+
+        </div>
+        <div class="grid grid-cols-3 gap-3 mt-10 ">
+          <div><a href="https://github.com/jorgeoehrens" target="_blank"><img alt="Git logo" class="logo p-2 " src="/git.svg" width="80" height="80" /> </a></div>
+          <div><a href="https://www.linkedin.com/in/jorge-oehrens/" target="_blank"> <img alt="Linkedin logo" class="logo p-2" src="/linkedin.svg" width="80" height="80" /></a></div>
+          <div><a href="https://wa.link/vc4z1l" target="_blank"><img alt="Whatssap logo" class="logo p-2" src="/wtsp.svg" width="80" height="80" /></a></div>
+        </div>
       </nav>
     </div>
   </header>

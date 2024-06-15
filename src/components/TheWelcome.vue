@@ -12,14 +12,14 @@ import SupportIcon from './icons/IconSupport.vue'
     <template #icon>
       <DocumentationIcon />
     </template>
-    <template #heading>Documentation</template>
+    <template #heading >Sitio Web En Desarrollo </template>
 
-    Vue’s
+    <!-- Vue’s
     <a href="https://vuejs.org/" target="_blank" rel="noopener">official documentation</a>
-    provides you with all information you need to get started.
+    provides you with all information you need to get started. -->
   </WelcomeItem>
 
-  <WelcomeItem>
+  <!-- <WelcomeItem>
     <template #icon>
       <ToolingIcon />
     </template>
@@ -39,9 +39,9 @@ import SupportIcon from './icons/IconSupport.vue'
     <br />
 
     More instructions are available in <code>README.md</code>.
-  </WelcomeItem>
+  </WelcomeItem> -->
 
-  <WelcomeItem>
+  <!-- <WelcomeItem>
     <template #icon>
       <EcosystemIcon />
     </template>
@@ -84,5 +84,5 @@ import SupportIcon from './icons/IconSupport.vue'
     As an independent project, Vue relies on community backing for its sustainability. You can help
     us by
     <a href="https://vuejs.org/sponsor/" target="_blank" rel="noopener">becoming a sponsor</a>.
-  </WelcomeItem>
+  </WelcomeItem> -->
 </template>

@@ -7,10 +7,13 @@ defineProps<{
 <template>
   <div class="greetings">
     <h1 class="green">{{ msg }}</h1>
+<!-- <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" /> -->
     <h3>
-      Software Developer
+      Desarrollador de Software
     </h3>
+
   </div>
+
 </template>
 
 <style scoped>
@@ -24,16 +27,27 @@ h1 {
 h3 {
   font-size: 1.2rem;
 }
+.greetings{
+  width: 100%;
 
+}
 .greetings h1,
 .greetings h3 {
   text-align: center;
+
 }
 
 @media (min-width: 1024px) {
-  .greetings h1,
+  .greetings h1{
+    text-align: center;
+    font-size: 4.5rem;
+
+
+  }
   .greetings h3 {
-    text-align: left;
+    text-align: center;
+    font-size: 2.5rem;
+
   }
 }
 </style>
