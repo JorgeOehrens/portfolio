@@ -14,9 +14,9 @@ import HelloWorld from './components/HelloWorld.vue'
       <nav>
         <div class="grid grid-cols-4 gap-4 mt-10">
 
-          <RouterLink to="/" class="text-center">Proyectos</RouterLink>
-          <RouterLink to="/about" class="text-center">Tecnologías</RouterLink>
-          <RouterLink to="/about" class="text-center">Sobre mi</RouterLink>
+          <RouterLink to="/experiencia" class="text-center">Experiencia</RouterLink>
+          <RouterLink to="/tecnologias" class="text-center">Tecnologías</RouterLink>
+          <RouterLink to="/proyectos" class="text-center">Proyectos</RouterLink>
           <a href="https://www.jorgeoehrens.com/CV-JORGEOEHRENS.pdf" class="text-center" target="_blank">CV</a>
 
         </div>
